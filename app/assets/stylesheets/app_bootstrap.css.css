@@ -1,0 +1,58 @@
+/*
+Syntax error: File to import not found or unreadable: twitter/bootstrap.
+              Load paths:
+                /Users/dc/dev/rails/incense/app/assets/stylesheets
+                /Users/dc/dev/rails/incense/app/assets/stylesheets
+        on line 9 of /Users/dc/dev/rails/incense/app/assets/stylesheets/app_bootstrap.css.scss
+
+4: // change grid
+5: //$gridColumnWidth: 70px;
+6: //$gridGutterWidth: 10px;
+7: 
+8: // import original bootstrap
+9: @import "twitter/bootstrap";
+10: @import "twitter/bootstrap-responsive";
+
+Backtrace:
+/Users/dc/dev/rails/incense/app/assets/stylesheets/app_bootstrap.css.scss:9
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/import_node.rb:67:in `import'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/engine.rb:315:in `_render'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/engine.rb:262:in `render'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin.rb:81:in `update_stylesheets'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:425:in `watch_or_update'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:307:in `process_result'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/bin/sass:9
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/bin/sass:19:in `load'
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/bin/sass:19
+/Users/dc/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: twitter/bootstrap.\A               Load paths:\A                 /Users/dc/dev/rails/incense/app/assets/stylesheets\A                 /Users/dc/dev/rails/incense/app/assets/stylesheets\A         on line 9 of /Users/dc/dev/rails/incense/app/assets/stylesheets/app_bootstrap.css.scss\A \A 4: // change grid\A 5: //$gridColumnWidth: 70px;\A 6: //$gridGutterWidth: 10px;\A 7: \A 8: // import original bootstrap\A 9: @import \"twitter/bootstrap\";\A 10: @import \"twitter/bootstrap-responsive\";"; }

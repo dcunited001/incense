@@ -18,6 +18,8 @@
 //= require ember-data
 //= require_self
 //= require incense
+//= require twitter/bootstrap
+
 Incense = Ember.Application.create();
 
 //= require_tree .
