@@ -18,6 +18,7 @@ gem 'devise', '~> 3.0.0.rc'
 gem 'pundit', '~> 0.2.0', github: 'elabs/pundit' # master supports rails 3
 
 # FRONTEND
+gem 'haml', '~> 4.0.2'
 gem 'jquery-rails', '~> 2.2'
 gem 'ember-rails', '~> 0.12'
 gem 'anjlab-bootstrap-rails', '>= 2.3', :require => 'bootstrap-rails'
