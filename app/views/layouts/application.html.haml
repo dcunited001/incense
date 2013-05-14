@@ -13,4 +13,7 @@
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
 
   %body
+    %p.notice= notice
+    %p.alert= alert
+
     = yield
