@@ -10,6 +10,9 @@ module Incense
   class Application < Rails::Application
     config.assets.initialize_on_precompile = false # required for rails 3.1 only?
 
+    # secure AJAX forms against CSRF
+    config.action_view.embed_authenticity_token_in_remote_forms = true
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
