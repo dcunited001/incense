@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+
+    %title= "Incense"
+    %meta{ :content => "", :name => "description" }
+    %meta{ :content => "", :name => "author" }
+    %meta{ :content => "3 days", :name => "revisit-after" }
+    %link{ :href => "http://raw.github.com/dcunited001/incense/master/LICENSE", :rel => "license", :title => "MIT License" }
+
+    = csrf_meta_tags
+    = javascript_include_tag "application", "data-turbolinks-track" => true %>
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+
+  %body
+    = yield
