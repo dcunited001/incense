@@ -4,13 +4,23 @@
 .bundle
 pkg/*
 .guard_history
-Procfile
+Procfile.dev
+
+## Rails
+.sass-cache
+*.sassc
+/bin
+
+## tmp & log
 log/*
 tmp/*
 
 ## Rubymine
 .idea/*
 .idea
+
+## config
+config/database.yml
 
 ## MAC OS
 .DS_Store
@@ -22,9 +32,6 @@ Desktop DF
 
 ## Spec Logging
 spec/test.log
-
-## Config
-spec/config/database.yml
 
 ## Notes
 NOTES.md
