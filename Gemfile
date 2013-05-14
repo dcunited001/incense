@@ -11,7 +11,7 @@ gem 'coffee-rails', '~> 4.0.0'           # Use CoffeeScript for .js.coffee asset
 
 gem 'jquery-rails'
 gem 'ember-rails', '~> 0.12.0'
-# TODO: gem 'anjlab-bootstrap-rails', '>= 2.3', :require => 'bootstrap-rails'
+gem 'anjlab-bootstrap-rails', '>= 2.3', :require => 'bootstrap-rails'
 
 gem 'turbolinks'            # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder', '~> 1.0.1'  # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
