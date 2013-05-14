@@ -1,0 +1,1 @@
+postgresql: pg_ctl -D /usr/local/var/postgres -l log/postgresql.log start

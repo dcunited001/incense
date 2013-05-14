@@ -7,6 +7,8 @@ gem 'sass-rails', '~> 4.0.0.rc1'         # Use SCSS for stylesheets
 gem 'uglifier', '>= 1.3.0'               # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.0.0'           # Use CoffeeScript for .js.coffee assets and views
 
+gem 'foreman', '~> 0.63'    # easily start/stop services
+
 # gem 'therubyracer', platforms: :ruby   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 
 gem 'jquery-rails', '~> 2.2'
