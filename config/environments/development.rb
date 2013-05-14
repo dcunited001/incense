@@ -1,5 +1,10 @@
 Incense::Application.configure do
-  config.ember.variant = :development     #ember dev mode
+
+  # ember dev mode
+  config.ember.variant = :development
+
+  # devise mailer
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   # Settings specified here will take precedence over those in config/application.rb.
 
